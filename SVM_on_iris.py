@@ -11,9 +11,8 @@ from sklearn import svm, datasets
 from sklearn.metrics import classification_report
 import itertools
 from sklearn.metrics import confusion_matrix
-#%%
+#%% load data petal width  & petal length 
 irisdata = datasets.load_iris()
-#%% part a
 X = irisdata.data[:, 2:4]
 y = irisdata.target
   
