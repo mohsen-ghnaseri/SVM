@@ -12,4 +12,4 @@ The linear models `LinearSVC()` and `SVC(kernel='linear')` yield slightly differ
 - `LinearSVC` uses the _One-vs-All_ (also known as _One-vs-Rest_) multiclass reduction while SVC uses the _One-vs-One_ multiclass reduction.
 
 Both linear models have linear decision boundaries (intersecting hyperplanes) while the non-linear kernel models (**polynomial** or **Gaussian RBF**) have more flexible non-linear decision boundaries with shapes that depend on the kind of kernel and its parameters.
-**Note:** >while plotting the decision function of classifiers for toy 2D datasets can help get an intuitive understanding of their respective expressive power, be aware that those intuitions don’t always generalize to more realistic high-dimensional problems.
+-**Note:** > while plotting the decision function of classifiers for toy 2D datasets can help get an intuitive understanding of their respective expressive power, be aware that those intuitions don’t always generalize to more realistic high-dimensional problems.
